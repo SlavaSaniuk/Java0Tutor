@@ -2,6 +2,7 @@ package by.saniuk;
 
 import by.saniuk.conditional.*;
 import by.saniuk.cycles.CyclesTaskFirst;
+import by.saniuk.cycles.CyclesTaskSecond;
 
 public class Main {
 
@@ -62,5 +63,10 @@ public class Main {
         // Задачи по циклам, задача 1:
         CyclesTaskFirst cyclesTaskFirst= new CyclesTaskFirst();
         System.out.println("Cycle task 1: Function result:  " +cyclesTaskFirst.calculate());
+
+        // Задачи по циклам, задача 2:
+        CyclesTaskSecond cyclesTaskSecond= new CyclesTaskSecond(-90, 90, 10.5);
+        cyclesTaskSecond.calculate();
+
     }
 }
