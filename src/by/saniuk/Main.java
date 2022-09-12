@@ -1,10 +1,13 @@
 package by.saniuk;
 
 import by.saniuk.conditional.*;
-import by.saniuk.cycles.CyclesTaskFirst;
-import by.saniuk.cycles.CyclesTaskSecond;
+import by.saniuk.cycles.*;
+
+import java.util.Scanner;
 
 public class Main {
+
+    private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
         TaskExecutor executor = new TaskExecutorImpl();
@@ -61,12 +64,42 @@ public class Main {
         System.out.println("Branch task 5(2): Function result(x=-2.8): " +branchTaskFive.calculate());
 
         // Задачи по циклам, задача 1:
-        CyclesTaskFirst cyclesTaskFirst= new CyclesTaskFirst();
+        CyclesTaskFirst cyclesTaskFirst= new CyclesTaskFirst(Main.SCANNER);
         System.out.println("Cycle task 1: Function result:  " +cyclesTaskFirst.calculate());
 
         // Задачи по циклам, задача 2:
         CyclesTaskSecond cyclesTaskSecond= new CyclesTaskSecond(-90, 90, 10.5);
         cyclesTaskSecond.calculate();
 
+        // Задачи по циклам, задача 3:
+        CyclesTaskThird cyclesTaskThird = new CyclesTaskThird();
+        System.out.println("Cycle task 3: Sum:  " +cyclesTaskThird.calculate());
+
+        // Задачи по циклам, задача 4:
+        System.out.println("Cycle task 4: Multiple:  " + new CyclesTaskFour().calculate());
+
+        // Задачи по циклам, задача 5:
+        System.out.println("======= Cycle task 5 =======");
+        System.out.println("Cycle task 5: Sum[e=0.56]:" +new CyclesTaskFive(0.56).calculate());
+        System.out.println("==== End of cycle task 5 ===");
+
+        // Задачи по циклам. Задача 6:
+        CyclesTaskSix cyclesTaskSix = new CyclesTaskSix();
+        System.out.println("======= Cycle task 6 =======");
+        cyclesTaskSix.printAsciiSymbolsWithCodes();
+        System.out.println("==== End of cycle task 6 ===");
+
+        // Задачи по циклам. Задача 7:
+        System.out.println("======= Cycle task 7 =======");
+        CyclesTaskSeven cyclesTaskSeven = new CyclesTaskSeven(Main.SCANNER);
+        cyclesTaskSeven.printDivisorsForPeriod();
+        System.out.println("==== End of cycle task 7 ===");
+
+
+        CyclesTaskEight cyclesTaskEight = new CyclesTaskEight();
+        cyclesTaskEight.printShareDigits();
+
+        // Close scanner:
+        Main.SCANNER.close();
     }
 }

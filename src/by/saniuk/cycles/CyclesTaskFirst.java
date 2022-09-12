@@ -7,8 +7,8 @@ public class CyclesTaskFirst {
 
     private int a;
 
-    public CyclesTaskFirst() {
-        try(Scanner sc = new Scanner(System.in)) {
+    public CyclesTaskFirst(Scanner sc) {
+        try {
             System.out.println("Enter int number:");
             this.a = sc.nextInt();
         }catch (InputMismatchException exc) {
