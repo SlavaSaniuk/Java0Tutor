@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java0tutor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conditional/ConditionalTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conditional/ConditionalTaskOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conditional/ConditionalTaskTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linear/TaskFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linear/TaskFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linear/TaskOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linear/TaskSix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linear/TaskThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linear/TaskTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/TaskExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/TaskExecutorImpl.java" afterDir="false" />
+    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="Not worked 8 task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskEight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskEight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conditional/ConditionalTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conditional/ConditionalTaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conditional/ConditionalTaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/TaskFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/TaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/TaskSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskSix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/TaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/TaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/TaskExecutorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskExecutorImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="linear" />
@@ -65,7 +60,7 @@
   </component>
   <component name="RunManager">
     <configuration name="JDK" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="by.saniuk.Main" />
       <module name="Java0tutor" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,8 +75,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662714857386</updated>
-      <workItem from="1662714858765" duration="9937000" />
+      <workItem from="1662714858765" duration="10171000" />
+      <workItem from="1662964270379" duration="15746000" />
+      <workItem from="1663053539695" duration="12620000" />
     </task>
+    <task id="LOCAL-00001" summary="In module 1 conditions section task 2 worked">
+      <created>1662727247777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662727247777</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Worked and tested branch task 3">
+      <created>1662967577419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662967577419</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Worked and tested branch task 4, 5">
+      <created>1662970228543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662970228543</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Worked and tested cycle task 1">
+      <created>1662970826470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662970826470</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Worked and tested cycle task 2">
+      <created>1662971808661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662971808661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Not worked 8 task">
+      <created>1662992845344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662992845344</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +137,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="In module 1 conditions section task 2 worked" />
+    <MESSAGE value="Worked and tested branch task 3" />
+    <MESSAGE value="Worked and tested branch task 4, 5" />
+    <MESSAGE value="Worked and tested cycle task 1" />
+    <MESSAGE value="Worked and tested cycle task 2" />
+    <MESSAGE value="Not worked 8 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not worked 8 task" />
   </component>
 </project>

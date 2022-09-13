@@ -95,9 +95,15 @@ public class Main {
         cyclesTaskSeven.printDivisorsForPeriod();
         System.out.println("==== End of cycle task 7 ===");
 
-
-        CyclesTaskEight cyclesTaskEight = new CyclesTaskEight();
-        cyclesTaskEight.printShareDigits();
+        // Задачи по циклам. Задача 8:
+        System.out.println("========================= Cycle task N8 =========================");
+        double cycleTaskEightFirstNumber = 5687.304D, cycleTaskEightSecondNumber = 5631.978D;
+        System.out.printf("The first number: %s, the second number %s; \n",
+                cycleTaskEightFirstNumber, cycleTaskEightSecondNumber);
+        CyclesTaskEight cyclesTaskEight =
+                new CyclesTaskEight(cycleTaskEightFirstNumber, cycleTaskEightSecondNumber);
+        System.out.printf("Shared digits: %s; \n", cyclesTaskEight.getShareDigits());
+        System.out.println("======================= End of Cycle task N8 ====================");
 
         // Close scanner:
         Main.SCANNER.close();

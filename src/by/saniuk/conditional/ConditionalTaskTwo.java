@@ -1,4 +1,4 @@
-package conditional;
+package by.saniuk.conditional;
 
 public class ConditionalTaskTwo extends ConditionalTask {
 

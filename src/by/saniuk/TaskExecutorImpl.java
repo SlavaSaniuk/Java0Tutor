@@ -1,4 +1,4 @@
-package utils;
+package by.saniuk;
 
 public class TaskExecutorImpl implements TaskExecutor{
     @Override

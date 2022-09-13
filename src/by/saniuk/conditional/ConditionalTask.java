@@ -1,6 +1,6 @@
-package conditional;
+package by.saniuk.conditional;
 
-import utils.Task;
+import by.saniuk.Task;
 
 public abstract class ConditionalTask extends Task {
 

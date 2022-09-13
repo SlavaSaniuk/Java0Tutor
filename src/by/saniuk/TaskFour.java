@@ -1,6 +1,4 @@
-package linear;
-
-import utils.Task;
+package by.saniuk;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

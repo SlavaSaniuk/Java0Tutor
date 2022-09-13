@@ -1,20 +1,21 @@
-package linear;
-
-import utils.Task;
+package by.saniuk;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class TaskTwo extends Task {
+public class TaskOne extends Task {
 
-    private double a,b,c;
+    private double a;
+    private double b;
+    private double c;
+
     private boolean isConstructorWithNumberUsed = false;
 
-    public TaskTwo() {
-        super(2, "Calculate: b +(Math.sqrt(Math.pow(b, 2) + 4*a*c)))/(2*a))-Math.pow(a, 3)*c+Math.pow(b, -2");
+    public TaskOne() {
+        super(1, "Calculate functions: z=((a-3)*b/2)+c");
     }
 
-    public TaskTwo(int a, int b, int c) {
+    public TaskOne(int a, int b, int c) {
         this();
         this.a = a;
         this.b = b;
@@ -22,8 +23,6 @@ public class TaskTwo extends Task {
 
         this.isConstructorWithNumberUsed = true;
     }
-
-
 
     @Override
     public void execute() {
@@ -43,11 +42,7 @@ public class TaskTwo extends Task {
             }
         }
 
-        super.answer = ((this.b +(Math.sqrt(Math.pow(this.b, 2) + 4*this.a*this.c)))/(2*this.a))-Math.pow(this.a, 3)*this.c+Math.pow(this.b, -2);
+
+        super.answer = ((this.a - 3) * b / 2) + c;
     }
-
-
-
-
-
 }
