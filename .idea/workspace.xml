@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="Not worked 8 task">
+    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="Added, worked, commented cycles Task 8 (CyclesTaskEight.java).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/saniuk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskEight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskEight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conditional/ConditionalTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conditional/ConditionalTaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTaskOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conditional/ConditionalTaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTaskTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/TaskFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskFive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/TaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/TaskSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskSix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/TaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/TaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/TaskExecutorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/TaskExecutorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskSeven.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +64,7 @@
       <updated>1662714857386</updated>
       <workItem from="1662714858765" duration="10171000" />
       <workItem from="1662964270379" duration="15746000" />
-      <workItem from="1663053539695" duration="12620000" />
+      <workItem from="1663053539695" duration="15906000" />
     </task>
     <task id="LOCAL-00001" summary="In module 1 conditions section task 2 worked">
       <created>1662727247777</created>
@@ -121,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662992845344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added, worked, commented cycles Task 8 (CyclesTaskEight.java).">
+      <created>1663072411641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663072411641</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +139,7 @@
     <MESSAGE value="Worked and tested cycle task 1" />
     <MESSAGE value="Worked and tested cycle task 2" />
     <MESSAGE value="Not worked 8 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Not worked 8 task" />
+    <MESSAGE value="Added, worked, commented cycles Task 8 (CyclesTaskEight.java)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added, worked, commented cycles Task 8 (CyclesTaskEight.java)." />
   </component>
 </project>
