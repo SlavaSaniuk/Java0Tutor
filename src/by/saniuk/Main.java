@@ -68,8 +68,11 @@ public class Main {
         System.out.println("Cycle task 1: Function result:  " +cyclesTaskFirst.calculate());
 
         // Задачи по циклам, задача 2:
-        CyclesTaskSecond cyclesTaskSecond= new CyclesTaskSecond(-90, 90, 10.5);
-        cyclesTaskSecond.calculate();
+        System.out.println("========================= Cycle task N2 =========================");
+        double start = -90, end = 90, step = 15.5;
+        System.out.printf("Period[start: %.2f, end: %.2f, step: %.2f]: \n", start, end, step);
+        new CyclesTaskSecond(start, end, step).calculate();
+        System.out.println("======================= End of Cycle task N2 ====================");
 
         // Задачи по циклам, задача 3:
         System.out.println("========================= Cycle task N3 =========================");
