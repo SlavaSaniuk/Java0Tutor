@@ -84,15 +84,13 @@ public class Main {
         System.out.println("==== End of cycle task 5 ===");
 
         // Задачи по циклам. Задача 6:
-        CyclesTaskSix cyclesTaskSix = new CyclesTaskSix();
-        System.out.println("======= Cycle task 6 =======");
-        cyclesTaskSix.printAsciiSymbolsWithCodes();
-        System.out.println("==== End of cycle task 6 ===");
+        System.out.println("========================= Cycle task N6 =========================");
+        new CyclesTaskSix().printAsciiSymbolsWithCodes();
+        System.out.println("======================= End of Cycle task N6 ====================");
 
         // Задачи по циклам. Задача 7:
         System.out.println("========================= Cycle task N7 =========================");
-        CyclesTaskSeven cyclesTaskSeven = new CyclesTaskSeven(Main.SCANNER);
-        cyclesTaskSeven.printDivisorsForPeriod();
+        new CyclesTaskSeven(Main.SCANNER).printDivisorsForPeriod();
         System.out.println("======================= End of Cycle task N7 ====================");
 
         // Задачи по циклам. Задача 8:
