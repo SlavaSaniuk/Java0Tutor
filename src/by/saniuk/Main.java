@@ -1,6 +1,6 @@
 package by.saniuk;
 
-import by.saniuk.conditional.*;
+import by.saniuk.branch.*;
 import by.saniuk.cycles.*;
 
 import java.util.Scanner;
@@ -47,6 +47,7 @@ public class Main {
         System.out.println("Branch task 3(2): Is points lie on same line: " +conditionalTaskThree2.isLieOnSameLine());
 
         // Задачи ветвления, задача 4:
+
         // Кирпич не пройдет в отверстие:
         BranchTaskFour branchTaskFour = new BranchTaskFour(5,6);
         branchTaskFour.setBrickSize(8,7,10);
@@ -57,9 +58,13 @@ public class Main {
 
         // Задачи ветвления, задача 5:
         System.out.println("========================= Branch task N5 =========================");
-        double x = -2.8;
+        double x = -3.8;
         BranchTaskFive branchTaskFive = new BranchTaskFive(x);
-        System.out.println("): " +branchTaskFive.calculate());
+        System.out.printf("F(%.2f)=%.2f; \n", x, branchTaskFive.calculate()); // x<=3
+        x = 4;
+        branchTaskFive = new BranchTaskFive(x);
+        System.out.printf("F(%.2f)=%f; \n", x, branchTaskFive.calculate()); // x>3
+        System.out.println("======================= End of branch task N5 ====================");
 
         /* ********************************************************************************************
         *********************************** ЗАДАЧИ НА ТЕМУ "Циклы" ************************************
@@ -67,16 +72,16 @@ public class Main {
          */
 
         // Задачи по циклам, задача 1:
-        System.out.println("========================= Cycle task N1 =========================");
+        System.out.println("========================= Cycle task N1 ==========================");
         System.out.printf("Sum of numbers from 1 to number: %d; \n", new CyclesTaskFirst(Main.SCANNER).calculate());
-        System.out.println("======================= End of Cycle task N1 ====================");
+        System.out.println("======================= End of Cycle task N1 =====================");
 
         // Задачи по циклам, задача 2:
-        System.out.println("========================= Cycle task N2 =========================");
+        System.out.println("========================= Cycle task N2 ==========================");
         double start = -90, end = 90, step = 15.5;
         System.out.printf("Period[start: %.2f, end: %.2f, step: %.2f]: \n", start, end, step);
         new CyclesTaskSecond(start, end, step).calculate();
-        System.out.println("======================= End of Cycle task N2 ====================");
+        System.out.println("======================= End of Cycle task N2 =====================");
 
         // Задачи по циклам, задача 3:
         System.out.println("========================= Cycle task N3 =========================");

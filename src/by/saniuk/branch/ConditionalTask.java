@@ -1,4 +1,4 @@
-package by.saniuk.conditional;
+package by.saniuk.branch;
 
 import by.saniuk.Task;
 

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="Review cycles task 2">
+    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="Review cycles task 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/saniuk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/conditional/BranchTaskFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/branch/BranchTaskFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/conditional/BranchTaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/branch/BranchTaskFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/branch/ConditionalTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/branch/ConditionalTaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/branch/ConditionalTaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/conditional/ConditionalTaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/branch/ConditionalTaskTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,7 @@
       <workItem from="1662714858765" duration="10171000" />
       <workItem from="1662964270379" duration="15746000" />
       <workItem from="1663053539695" duration="15953000" />
-      <workItem from="1663135727716" duration="5607000" />
+      <workItem from="1663135727716" duration="6403000" />
     </task>
     <task id="LOCAL-00001" summary="In module 1 conditions section task 2 worked">
       <created>1662727247777</created>
@@ -166,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663144180310</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Review cycles task 1">
+      <created>1663155770195</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663155770195</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +209,7 @@
     <MESSAGE value="Review cycles task 4" />
     <MESSAGE value="Review cycles task 3" />
     <MESSAGE value="Review cycles task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Review cycles task 2" />
+    <MESSAGE value="Review cycles task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Review cycles task 1" />
   </component>
 </project>
