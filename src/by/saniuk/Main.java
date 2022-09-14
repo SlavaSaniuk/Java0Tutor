@@ -26,14 +26,24 @@ public class Main {
         executor.excecute(new TaskSix(6, -2));
         executor.excecute(new TaskSix(4, 3));
 
-        /*
-         * ====================================================
-         * ============ Операции ветвления ====================
+
+        /* ********************************************************************************************
+         *********************************** ЗАДАЧИ НА ТЕМУ "Ветвление" *******************************
+         * ********************************************************************************************
          */
+
         // Задачи ветвления, задача 1:
-        executor.excecute(new ConditionalTaskOne(90, 270));
-        executor.excecute(new ConditionalTaskOne(89, 89));
-        executor.excecute(new ConditionalTaskOne(90, 45));
+        System.out.println("========================= Branch task N1 =========================");
+        BranchTaskFirst branchTaskFirst1 = new BranchTaskFirst(89, 89); // true, false;
+        System.out.printf("Triangle[89, 89] exist - %b, is it right triangle - %b; \n",
+                branchTaskFirst1.isTriangleExist(), branchTaskFirst1.isRightTriangle());
+        BranchTaskFirst branchTaskFirst2 = new BranchTaskFirst(90, 90); // false, false;
+        System.out.printf("Triangle[90, 90] exist - %b, is it right triangle - %b; \n",
+                branchTaskFirst2.isTriangleExist(), branchTaskFirst2.isRightTriangle());
+        BranchTaskFirst branchTaskFirst3 = new BranchTaskFirst(44, 46); // true, true;
+        System.out.printf("Triangle[44, 46] exist - %b, is it right triangle - %b; \n",
+                branchTaskFirst3.isTriangleExist(), branchTaskFirst3.isRightTriangle());
+        System.out.println("======================= End of branch task N1 ====================");
 
         // Задачи ветвления, задача 2:
         System.out.println("========================= Branch task N2 =========================");
