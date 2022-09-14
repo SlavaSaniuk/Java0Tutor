@@ -47,14 +47,15 @@ public class Main {
         System.out.println("Branch task 3(2): Is points lie on same line: " +conditionalTaskThree2.isLieOnSameLine());
 
         // Задачи ветвления, задача 4:
-
-        // Кирпич не пройдет в отверстие:
+        System.out.println("========================= Branch task N4 =========================");
         BranchTaskFour branchTaskFour = new BranchTaskFour(5,6);
-        branchTaskFour.setBrickSize(8,7,10);
-        System.out.println("Branch task 4(1): Is brick[8,7,10] go throw hole[5,6]: " +branchTaskFour.isBrickGoThrowHole());
-        // Кирпич пройдет в отверстие:
-        branchTaskFour.setBrickSize(8,6,5);
-        System.out.println("Branch task 4(2): Is brick[8,6,5] go throw hole[5,6]: " +branchTaskFour.isBrickGoThrowHole());
+        branchTaskFour.setBrickSize(8,7,10); // Кирпич не пройдет в отверстие;
+        System.out.printf("Is brick[w:8, h:7, l:10] go throw hole[w:5, h:6]: %b; \n",
+                branchTaskFour.isBrickGoThrowHole());
+        branchTaskFour.setBrickSize(8,6,5); // Кирпич пройдет в отверстие;
+        System.out.printf("Is brick[w:8, h:6, l:5] go throw hole[w:5, h:6]: %b; \n",
+                branchTaskFour.isBrickGoThrowHole());
+        System.out.println("======================= End of branch task N4 ====================");
 
         // Задачи ветвления, задача 5:
         System.out.println("========================= Branch task N5 =========================");
