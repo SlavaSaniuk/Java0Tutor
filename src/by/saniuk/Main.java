@@ -39,12 +39,14 @@ public class Main {
         executor.excecute(new ConditionalTaskTwo(6,5, 45, 5));
 
         // Задачи ветвления, задача 3:
-        // Точки не лежат на одной прямой:
-        ConditionalTaskThree conditionalTaskThree = new ConditionalTaskThree(2,4,5,6,7,8);
-        System.out.println("Branch task 3(1): Is points lie on same line: " +conditionalTaskThree.isLieOnSameLine());
-        // Точки лежат на одной прямой:
-        ConditionalTaskThree conditionalTaskThree2 = new ConditionalTaskThree(1,8,-2,-7,-4,-17);
-        System.out.println("Branch task 3(2): Is points lie on same line: " +conditionalTaskThree2.isLieOnSameLine());
+        System.out.println("========================= Branch task N3 =========================");
+        BranchTaskThird branchTaskThird = new BranchTaskThird(2,4,5,6,7,8);
+        System.out.printf("Is points A(2,4), B(5,6), C(7,8) lie on same line: %b; \n"
+                ,branchTaskThird.isLieOnSameLine()); // Точки не лежат на одной прямой;
+        branchTaskThird = new BranchTaskThird(1,8,-2,-7,-4,-17);
+        System.out.printf("Is points A(1,8), B(-2,-7), C(-4,-17) lie on same line: %b; \n",
+                branchTaskThird.isLieOnSameLine()); // Точки лежат на одной прямой;
+        System.out.println("======================= End of branch task N3 ====================");
 
         // Задачи ветвления, задача 4:
         System.out.println("========================= Branch task N4 =========================");
