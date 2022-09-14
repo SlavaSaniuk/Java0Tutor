@@ -79,9 +79,10 @@ public class Main {
         System.out.println("Cycle task 4: Multiple:  " + new CyclesTaskFour().calculate());
 
         // Задачи по циклам, задача 5:
-        System.out.println("======= Cycle task 5 =======");
-        System.out.println("Cycle task 5: Sum[e=0.56]:" +new CyclesTaskFive(0.56).calculate());
-        System.out.println("==== End of cycle task 5 ===");
+        System.out.println("========================= Cycle task N5 =========================");
+        double e = 0.56D;
+        System.out.printf("Sum[e=%f]: %f; \n", e, new CyclesTaskFive(0.56).calculateSum());
+        System.out.println("======================= End of Cycle task N5 ====================");
 
         // Задачи по циклам. Задача 6:
         System.out.println("========================= Cycle task N6 =========================");
