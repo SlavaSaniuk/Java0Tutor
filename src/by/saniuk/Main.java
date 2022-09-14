@@ -2,6 +2,7 @@ package by.saniuk;
 
 import by.saniuk.branch.*;
 import by.saniuk.cycles.*;
+import by.saniuk.linear.*;
 
 import java.util.Scanner;
 
@@ -10,9 +11,28 @@ public class Main {
     private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
+
+        /* ********************************************************************************************
+         *********************************** Линейные задачи  *****************************************
+         * ********************************************************************************************
+         */
+
+        // Линейные задачи, задача 1:
+        System.out.println("========================= Linear task N1 =========================");
+        LinearTaskFirst linearTaskFirst1 = new LinearTaskFirst(1,2,3);
+        System.out.printf("z=((1-3)*2/2)+3=%.2f; \n", linearTaskFirst1.calculate());
+        LinearTaskFirst linearTaskFirst2 = new LinearTaskFirst(4,5,6);
+        System.out.printf("z=((4-3)*5/2)+6=%.2f; \n", linearTaskFirst2.calculate());
+        System.out.println("======================= End of linear task N1 ====================");
+
+        // Линейные задачи, задача 2:
+        System.out.println("========================= Linear task N2 =========================");
+        System.out.println("======================= End of linear task N2 ====================");
+
+
+
         TaskExecutor executor = new TaskExecutorImpl();
 
-        executor.excecute(new TaskOne(4, 5, 6));
         executor.excecute(new TaskTwo(4, 5, 6));
         executor.excecute(new TaskThree(3, 4));
         executor.excecute(new TaskFour(123.456));

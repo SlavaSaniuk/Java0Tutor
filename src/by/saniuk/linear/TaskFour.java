@@ -1,21 +1,23 @@
-package by.saniuk;
+package by.saniuk.linear;
+
+import by.saniuk.Task;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class TaskFive extends Task {
+public class TaskFour extends Task {
 
-    private int timeInSeconds;
+    private double num;
     private boolean isConstructorWithNumberUsed = false;
 
-    public TaskFive() {
-        super(5,
+    public TaskFour() {
+        super(4,
                 "Swap the fractional and integer parts of the number and print the resulting value of the number ");
     }
 
-    public TaskFive(int aNumber) {
+    public TaskFour(double aNumber) {
         this();
-        this.timeInSeconds = aNumber;
+        this.num = aNumber;
         this.isConstructorWithNumberUsed = true;
     }
 
@@ -26,21 +28,15 @@ public class TaskFive extends Task {
             try (Scanner sc = new Scanner(System.in)) {
                 // User input:
                 System.out.println("Enter number in format ddd.fff:");
-                this.timeInSeconds = sc.nextInt();
+                this.num = sc.nextDouble();
 
             }catch (InputMismatchException exc) {
                 System.out.println("Error - Invalid number!");
             }
         }
 
-        //Calculate hours:
-
-        int hour = this.timeInSeconds/3600;
-        int min = (this.timeInSeconds-hour*3600)/60;
-        int sec = this.timeInSeconds-(hour*3600) -(min*60);
-
-
-        super.answer = String.format("%dh %dmin %ds", hour, min,sec);
-
+        int intPart = (int) this.num;
+        int fracPart = (int) (this.num%1*1000);
+        super.answer = Double.parseDouble(fracPart +"." +intPart);
     }
 }

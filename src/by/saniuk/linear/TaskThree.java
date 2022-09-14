@@ -1,4 +1,6 @@
-package by.saniuk;
+package by.saniuk.linear;
+
+import by.saniuk.Task;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
