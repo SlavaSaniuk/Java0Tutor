@@ -33,7 +33,7 @@ public class Main {
 
         TaskExecutor executor = new TaskExecutorImpl();
 
-        executor.excecute(new TaskTwo(4, 5, 6));
+        executor.excecute(new LinearTaskSecond(4, 5, 6));
         executor.excecute(new TaskThree(3, 4));
         executor.excecute(new TaskFour(123.456));
         executor.excecute(new TaskFive(56789));

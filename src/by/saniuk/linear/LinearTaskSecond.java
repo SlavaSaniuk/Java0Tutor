@@ -1,20 +1,24 @@
 package by.saniuk.linear;
 
 import by.saniuk.Task;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class TaskTwo extends Task {
+/**
+ * Linear task N2.
+ * Вычислить значение выражения по формуле (все переменные принимают действительные значения):
+ * b +(Math.sqrt(Math.pow(b, 2) + 4*a*c)))/(2*a))-Math.pow(a, 3)*c+Math.pow(b, -2)
+ */
+public class LinearTaskSecond extends Task {
 
     private double a,b,c;
     private boolean isConstructorWithNumberUsed = false;
 
-    public TaskTwo() {
+    public LinearTaskSecond() {
         super(2, "Calculate: b +(Math.sqrt(Math.pow(b, 2) + 4*a*c)))/(2*a))-Math.pow(a, 3)*c+Math.pow(b, -2");
     }
 
-    public TaskTwo(int a, int b, int c) {
+    public LinearTaskSecond(int a, int b, int c) {
         this();
         this.a = a;
         this.b = b;
