@@ -22,7 +22,7 @@ public class CyclesTaskSeven {
             System.out.print("Enter start of period [m]: ");
             m = sc.nextInt();
 
-            System.out.println("Enter end of period [n]: ");
+            System.out.print("Enter end of period [n]: ");
             n = sc.nextInt();
         }catch (InputMismatchException exc) {
             System.out.println("Exception! Invalid number.");
@@ -30,7 +30,7 @@ public class CyclesTaskSeven {
     }
 
     /**
-     * Method iterates all integer numbers in period
+     * Method iterates all integer numbers in period, pick up divisors for it's and print divisors.
      */
     public void printDivisorsForPeriod() {
         System.out.printf("For numbers in period [%d; %d] divisors: \n", this.m, this.n);

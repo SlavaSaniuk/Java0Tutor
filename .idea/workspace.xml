@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="Added, worked, commented cycles Task 8 (CyclesTaskEight.java).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/cycles/CyclesTaskSeven.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="Review cycles task 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +61,7 @@
       <updated>1662714857386</updated>
       <workItem from="1662714858765" duration="10171000" />
       <workItem from="1662964270379" duration="15746000" />
-      <workItem from="1663053539695" duration="15906000" />
+      <workItem from="1663053539695" duration="15953000" />
     </task>
     <task id="LOCAL-00001" summary="In module 1 conditions section task 2 worked">
       <created>1662727247777</created>
@@ -115,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663072411641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Review cycles task 7">
+      <created>1663079148800</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663079148800</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +144,7 @@
     <MESSAGE value="Worked and tested cycle task 2" />
     <MESSAGE value="Not worked 8 task" />
     <MESSAGE value="Added, worked, commented cycles Task 8 (CyclesTaskEight.java)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added, worked, commented cycles Task 8 (CyclesTaskEight.java)." />
+    <MESSAGE value="Review cycles task 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Review cycles task 7" />
   </component>
 </project>
