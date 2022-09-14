@@ -72,12 +72,13 @@ public class Main {
         cyclesTaskSecond.calculate();
 
         // Задачи по циклам, задача 3:
-        CyclesTaskThird cyclesTaskThird = new CyclesTaskThird();
-        System.out.println("Cycle task 3: Sum:  " +cyclesTaskThird.calculate());
+        System.out.println("========================= Cycle task N3 =========================");
+        System.out.printf("Sum: %d; \n ", new CyclesTaskThird().calculate());
+        System.out.println("======================= End of Cycle task N3 ====================");
 
         // Задачи по циклам, задача 4:
         System.out.println("========================= Cycle task N4 =========================");
-        System.out.println("Multiplication:  " + new CyclesTaskFour().calculate());
+        System.out.printf("Multiplication:  %d; \n", new CyclesTaskFour().calculate());
         System.out.println("======================= End of Cycle task N4 ====================");
 
         // Задачи по циклам, задача 5:
