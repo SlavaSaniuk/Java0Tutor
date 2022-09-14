@@ -56,16 +56,20 @@ public class Main {
         System.out.println("Branch task 4(2): Is brick[8,6,5] go throw hole[5,6]: " +branchTaskFour.isBrickGoThrowHole());
 
         // Задачи ветвления, задача 5:
-        // Введите X с клавиатуры:
-        //BranchTaskFive branchTaskFive = new BranchTaskFive();
-        //System.out.println("Branch task 5(1): Function result: " +branchTaskFive.calculate());
-        // Передача X через конструктор:
-        BranchTaskFive branchTaskFive = new BranchTaskFive(-2.8);
-        System.out.println("Branch task 5(2): Function result(x=-2.8): " +branchTaskFive.calculate());
+        System.out.println("========================= Branch task N5 =========================");
+        double x = -2.8;
+        BranchTaskFive branchTaskFive = new BranchTaskFive(x);
+        System.out.println("): " +branchTaskFive.calculate());
+
+        /* ********************************************************************************************
+        *********************************** ЗАДАЧИ НА ТЕМУ "Циклы" ************************************
+        * *********************************************************************************************
+         */
 
         // Задачи по циклам, задача 1:
-        CyclesTaskFirst cyclesTaskFirst= new CyclesTaskFirst(Main.SCANNER);
-        System.out.println("Cycle task 1: Function result:  " +cyclesTaskFirst.calculate());
+        System.out.println("========================= Cycle task N1 =========================");
+        System.out.printf("Sum of numbers from 1 to number: %d; \n", new CyclesTaskFirst(Main.SCANNER).calculate());
+        System.out.println("======================= End of Cycle task N1 ====================");
 
         // Задачи по циклам, задача 2:
         System.out.println("========================= Cycle task N2 =========================");
