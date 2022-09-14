@@ -76,7 +76,9 @@ public class Main {
         System.out.println("Cycle task 3: Sum:  " +cyclesTaskThird.calculate());
 
         // Задачи по циклам, задача 4:
-        System.out.println("Cycle task 4: Multiple:  " + new CyclesTaskFour().calculate());
+        System.out.println("========================= Cycle task N4 =========================");
+        System.out.println("Multiplication:  " + new CyclesTaskFour().calculate());
+        System.out.println("======================= End of Cycle task N4 ====================");
 
         // Задачи по циклам, задача 5:
         System.out.println("========================= Cycle task N5 =========================");
