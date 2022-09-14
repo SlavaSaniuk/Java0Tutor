@@ -30,13 +30,17 @@ public class Main {
          * ====================================================
          * ============ Операции ветвления ====================
          */
+        // Задачи ветвления, задача 1:
         executor.excecute(new ConditionalTaskOne(90, 270));
         executor.excecute(new ConditionalTaskOne(89, 89));
         executor.excecute(new ConditionalTaskOne(90, 45));
 
-        executor.excecute(new ConditionalTaskTwo(1,2,3, 270));
-        executor.excecute(new ConditionalTaskTwo(5,4,3,2));
-        executor.excecute(new ConditionalTaskTwo(6,5, 45, 5));
+        // Задачи ветвления, задача 2:
+        System.out.println("========================= Branch task N2 =========================");
+        System.out.printf("Max{min(1, 2), min(3, 270)}=%d; \n", new BranchTaskSecond(1,2,3, 270).execute());
+        System.out.printf("Max{min(5, 4), min(3, 2)}=%d; \n", new BranchTaskSecond(5,4,3,2).execute());
+        System.out.printf("Max{min(6, 5), min(45, 5)}=%d; \n", new BranchTaskSecond(6,5, 45, 5).execute());
+        System.out.println("======================= End of branch task N2 ====================");
 
         // Задачи ветвления, задача 3:
         System.out.println("========================= Branch task N3 =========================");
