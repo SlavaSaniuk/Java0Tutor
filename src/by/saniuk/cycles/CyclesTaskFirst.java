@@ -31,7 +31,7 @@ public class CyclesTaskFirst {
      */
     public long calculate() {
         long sum=0;
-        for (int i=1; i<this.a; i++) sum+=i;
+        for (int i=1; i<=this.a; i++) sum+=i;
         return sum;
     }
 }
