@@ -29,14 +29,21 @@ public class Main {
         System.out.println("========================= Linear task N2 =========================");
         LinearTaskSecond linearTaskSecond = new LinearTaskSecond(4,5,6);
         System.out.printf("5+(Math.sqrt(Math.pow(5, 2) + 4*4*6)))/(2*4))-Math.pow(4, 3)*6+Math.pow(5, -2)=%.2f; \n",
-                linearTaskSecond.execute());
+                linearTaskSecond.calculate());
         System.out.println("======================= End of linear task N2 ====================");
+
+        // Линейные задачи, задача 3:
+        System.out.println("========================= Linear task N3 =========================");
+        LinearTaskThird linearTaskThird = new LinearTaskThird(4,5);
+        System.out.printf("((Math.sin(x) + Math.cos(y))/(Math.cos(x) - Math.sin(y)))*Math.tan(x)*y=%.2f; \n",
+                linearTaskThird.calculate());
+        System.out.println("======================= End of linear task N3 ====================");
+
 
 
 
         TaskExecutor executor = new TaskExecutorImpl();
 
-        executor.excecute(new TaskThree(3, 4));
         executor.excecute(new TaskFour(123.456));
         executor.excecute(new TaskFive(56789));
 

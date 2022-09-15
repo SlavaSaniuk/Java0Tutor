@@ -21,7 +21,11 @@ public class LinearTaskSecond {
         this.c = aC;
     }
 
-    public double execute() {
+    /**
+     * Calculate statement.
+     * @return - statement calculation result.
+     */
+    public double calculate() {
         return  ((this.b +(Math.sqrt(Math.pow(this.b, 2) + 4*this.a*this.c)))/(2*this.a))-Math.pow(this.a, 3)*this.c+Math.pow(this.b, -2);
     }
 
