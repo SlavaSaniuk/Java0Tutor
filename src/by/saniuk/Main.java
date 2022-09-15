@@ -39,12 +39,19 @@ public class Main {
                 linearTaskThird.calculate());
         System.out.println("======================= End of linear task N3 ====================");
 
+        // Линейные задачи, задача 4:
+        System.out.println("========================= Linear task N4 =========================");
+        double changeVar = 123.456D;
+        LinearTaskFour linearTaskFour = new LinearTaskFour(changeVar);
+        System.out.printf("Change integer and decimal parts: %.3f -> %s; \n", changeVar,
+                linearTaskFour.changeIntDecParts());
+        System.out.println("======================= End of linear task N4 ====================");
+
 
 
 
         TaskExecutor executor = new TaskExecutorImpl();
 
-        executor.excecute(new TaskFour(123.456));
         executor.excecute(new TaskFive(56789));
 
         // Result: true
