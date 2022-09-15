@@ -53,18 +53,16 @@ public class Main {
         linearTaskFive.printNormalTime();
         System.out.println("======================= End of linear task N5 ====================");
 
+        // Линейные задачи, задача 6:
+        System.out.println("========================= Linear task N6 =========================");
+        LinearTaskSix linearTaskSix = new LinearTaskSix();
 
+        linearTaskSix.setPointCoordinates(2,3);
+        linearTaskSix.print(); // True;
 
-
-        TaskExecutor executor = new TaskExecutorImpl();
-
-        // Result: true
-        executor.excecute(new TaskSix(2, 3));
-        executor.excecute(new TaskSix(-2, -2));
-        executor.excecute(new TaskSix(0, 0));
-        // Result: false
-        executor.excecute(new TaskSix(6, -2));
-        executor.excecute(new TaskSix(4, 3));
+        linearTaskSix.setPointCoordinates(6,-2);
+        linearTaskSix.print(); // False;
+        System.out.println("======================= End of linear task N6 ====================");
 
 
         /* ********************************************************************************************
