@@ -27,13 +27,15 @@ public class Main {
 
         // Линейные задачи, задача 2:
         System.out.println("========================= Linear task N2 =========================");
+        LinearTaskSecond linearTaskSecond = new LinearTaskSecond(4,5,6);
+        System.out.printf("5+(Math.sqrt(Math.pow(5, 2) + 4*4*6)))/(2*4))-Math.pow(4, 3)*6+Math.pow(5, -2)=%.2f; \n",
+                linearTaskSecond.execute());
         System.out.println("======================= End of linear task N2 ====================");
 
 
 
         TaskExecutor executor = new TaskExecutorImpl();
 
-        executor.excecute(new LinearTaskSecond(4, 5, 6));
         executor.excecute(new TaskThree(3, 4));
         executor.excecute(new TaskFour(123.456));
         executor.excecute(new TaskFive(56789));

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="Review linear task 1.">
+    <list default="true" id="5c69fc6a-c0c9-4f72-a57c-fbea9e2cb94b" name="Changes" comment="232">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/saniuk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/saniuk/linear/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/linear/LinearTaskSecond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/saniuk/linear/LinearTaskSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/saniuk/linear/LinearTaskSecond.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="linear" />
@@ -67,7 +67,8 @@
       <workItem from="1662714858765" duration="10171000" />
       <workItem from="1662964270379" duration="15746000" />
       <workItem from="1663053539695" duration="15953000" />
-      <workItem from="1663135727716" duration="12941000" />
+      <workItem from="1663135727716" duration="12962000" />
+      <workItem from="1663246603197" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="In module 1 conditions section task 2 worked">
       <created>1662727247777</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663162189056</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="232">
+      <created>1663165792244</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663165792244</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +262,7 @@
     <MESSAGE value="Review branch task 2." />
     <MESSAGE value="Review branch task 1." />
     <MESSAGE value="Review linear task 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Review linear task 1." />
+    <MESSAGE value="232" />
+    <option name="LAST_COMMIT_MESSAGE" value="232" />
   </component>
 </project>
