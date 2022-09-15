@@ -47,12 +47,16 @@ public class Main {
                 linearTaskFour.changeIntDecParts());
         System.out.println("======================= End of linear task N4 ====================");
 
+        // Линейные задачи, задача 5:
+        System.out.println("========================= Linear task N5 =========================");
+        LinearTaskFive linearTaskFive = new LinearTaskFive(56789);
+        linearTaskFive.printNormalTime();
+        System.out.println("======================= End of linear task N5 ====================");
+
 
 
 
         TaskExecutor executor = new TaskExecutorImpl();
-
-        executor.excecute(new TaskFive(56789));
 
         // Result: true
         executor.excecute(new TaskSix(2, 3));
