@@ -1,10 +1,5 @@
 package by.saniuk.linear;
 
-import by.saniuk.Task;
-
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
 /**
  * Linear task N3.
  * Task: Вычислить значение выражения по формуле (все переменные принимают действительные значения):
